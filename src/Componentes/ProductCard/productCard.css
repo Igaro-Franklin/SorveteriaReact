@@ -1,0 +1,35 @@
+.product-card{
+    width: 220px;
+    height: 340px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(88, 0, 77);
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+    padding: 10px 7px;
+}
+
+.product-card h2{
+    margin: 15px auto 10px;
+}
+
+.product-card img{
+    width: 150px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px white;
+}
+
+.product-card p{
+    margin: 10px 2px;
+}
+
+.p-preco{
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: rgb(66, 0, 57);
+}

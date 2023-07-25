@@ -1,0 +1,28 @@
+body{
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/src/Imagens/background/Sorvete-Picole-Sobremesa.jpg);
+}
+
+.container-picole{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/src/Imagens/background/cobertura.png);  
+    background-repeat:repeat-x;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.container-picole h1{
+    margin: 20px auto;
+    font-size: 65px;
+    filter: drop-shadow(2px 2px 20px rgb(255, 0, 234));
+    text-align: center;
+}
+
+.sabores-picoles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
