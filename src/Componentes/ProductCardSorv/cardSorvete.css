@@ -1,0 +1,30 @@
+.cardSorvete{
+    width: 320px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 0, 255, 0.568);
+    box-shadow: 2px 2px 3px black;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+
+.cardSorvete img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 20px 2px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.cardSorvete .CardInfo h2{
+    margin-bottom: 3px;
+}
+
+.p-sorv{
+    margin: 10px 0 3px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
